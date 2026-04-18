@@ -1,7 +1,7 @@
 local env = {
 
   name = "santoku-iconv",
-  version = "0.0.7-1",
+  version = "0.0.8-1",
   variable_prefix = "TK_ICONV",
   license = "MIT",
   public = true,
@@ -12,7 +12,7 @@ local env = {
 
   test = {
     dependencies = {
-      "santoku >= 0.0.191-1",
+      "santoku >= 0.0.328-1",
       "luacov >= 0.15.0-1",
     }
   },
